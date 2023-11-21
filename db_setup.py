@@ -71,6 +71,7 @@ def create_table():
 
 # Insert data into the database
 def insert_data_in_db(name, email, number_of_people, date, time, booking_information):
+    print('test insert')
     connection = connect()
     cursor = connection.cursor()
 
